@@ -1,0 +1,13 @@
+diff --git a/main.py b/main.py
+index 18a5768..eea80d0 100644
+--- a/main.py
++++ b/main.py
+@@ -67,7 +67,7 @@ if __name__ == "__main__":
+                  logger)
+ 
+     elif args.mode == 'eval':
+-        model.load_state_dict(torch.load(os.path.join(args.ckpt_path, cfg.dataset + '_' + 'AWN' + '.pkl')))
++        model.load_state_dict(torch.load(os.path.join(args.ckpt_path, cfg.dataset + '_' + 'AWN' + '.pkl'), map_location=cfg.device))
+         Run_Eval(model,
+                  Signals_test,
+                  Labels_test,
