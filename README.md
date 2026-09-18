@@ -62,7 +62,7 @@ For example, with Codex:
 
 The host can consult the paper skill for research context and invoke the MCP tool for execution.
 
-See [docs/HOW_TO_INTERACT.md](docs/HOW_TO_INTERACT.md).
+See [docs/HOW_TO_INTERACT.md](docs/HOW_TO_INTERACT.md) and the [recommended first interactive prompt](prompts/EXAMPLE_USE.md).
 
 ## What is not included here
 
