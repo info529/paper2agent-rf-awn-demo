@@ -62,3 +62,7 @@ A future RF/EW domain application could add a UI for:
 - chat.
 
 That would be a separate application layer above the paper-derived capabilities.
+
+## Recommended first test
+
+Use the complete walkthrough prompt in [prompts/EXAMPLE_USE.md](../prompts/EXAMPLE_USE.md). It is designed to test the full interaction pattern from plain-language paper explanation through MCP execution and result interpretation.
